@@ -44,6 +44,7 @@ class MongodbDriver implements DriverInterface
     {
         $backupData = DB::collection($this->collection)
             ->where('uuid', $uuid)
+            ->where('rollback', 1)
             ->get()
             ->toArray();
 
