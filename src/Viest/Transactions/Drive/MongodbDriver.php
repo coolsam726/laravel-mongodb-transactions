@@ -47,6 +47,21 @@ class MongodbDriver implements DriverInterface
             ->get()
             ->toArray();
 
+        //Retrograde
+        $backupData = array_reverse($backupData);
+
+        return $this->roolbackDB($backupData, $uuid);
+    }
+
+    /**
+     * Database operation
+     *
+     * @param $backupData
+     * @param $uuid
+     * @return array
+     */
+    private function roolbackDB($backupData, $uuid)
+    {
         foreach ($backupData as $rowData) {
             foreach ($rowData['data'] as $data) {
                 foreach ($rowData['wheres'] as $where) {
