@@ -1,5 +1,6 @@
 {
     "name": "coolsam/laravel-mongodb-transactions",
+    "description": "An extension of jenssegers/laravel-mongodb that adds support for multi-document transactions",
     "authors": [
         {
             "name": "Sam Maosa",
