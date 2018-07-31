@@ -1,6 +1,6 @@
 <?php
 
-namespace Viest\Transactions\Query;
+namespace Coolsam\Transactions\Query;
 
 use Jenssegers\Mongodb\Query\Processor as BaseProcessor;
 

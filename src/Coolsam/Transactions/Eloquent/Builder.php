@@ -1,9 +1,9 @@
 <?php
 
-namespace Viest\Transactions\Eloquent;
+namespace Coolsam\Transactions\Eloquent;
 
 use Jenssegers\Mongodb\Eloquent\Builder as BaseBuilder;
-use Viest\Transactions\Event\RecordTransactions;
+use Coolsam\Transactions\Event\RecordTransactions;
 
 class Builder extends BaseBuilder
 {

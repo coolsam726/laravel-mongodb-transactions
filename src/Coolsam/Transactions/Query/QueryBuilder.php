@@ -1,6 +1,6 @@
 <?php
 
-namespace Viest\Transactions\Query;
+namespace Coolsam\Transactions\Query;
 
 use Jenssegers\Mongodb\Query\Builder;
 use Jenssegers\Mongodb\Connection;

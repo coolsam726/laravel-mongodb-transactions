@@ -1,11 +1,11 @@
 <?php
 
-namespace Viest\Transactions\Event;
+namespace Coolsam\Transactions\Event;
 
 
 class BaseTransactions
 {
-    private static $driverClass = 'Viest\Transactions\Drive\\';
+    private static $driverClass = 'Coolsam\Transactions\Drive\\';
 
     /**
      * @return mixed

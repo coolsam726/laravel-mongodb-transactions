@@ -1,14 +1,14 @@
 {
-    "name": "viest/php-mongodb-transactions",
+    "name": "coolsam/laravel-mongodb-transactions",
     "authors": [
         {
-            "name": "viest",
-            "email": "dev@service.viest.me"
+            "name": "Sam Maosa",
+            "email": "maosa.sam@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Viest\\": "src/Viest/"
+            "Coolsam\\": "src/Coolsam/"
         }
     },
     "require": {

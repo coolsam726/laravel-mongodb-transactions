@@ -1,6 +1,6 @@
 <?php
 
-namespace Viest\Transactions\Query;
+namespace Coolsam\Transactions\Query;
 
 use Illuminate\Database\Query\Grammars\Grammar as BaseGrammar;
 

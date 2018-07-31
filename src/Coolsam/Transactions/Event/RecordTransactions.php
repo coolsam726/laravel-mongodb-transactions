@@ -1,9 +1,9 @@
 <?php
 
-namespace Viest\Transactions\Event;
+namespace Coolsam\Transactions\Event;
 
 use \Illuminate\Database\Query\Builder as QueryBuilder;
-use Viest\Transactions\Eloquent\Model;
+use Coolsam\Transactions\Eloquent\Model;
 
 class RecordTransactions extends BaseTransactions
 {

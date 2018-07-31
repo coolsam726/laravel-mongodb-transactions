@@ -1,9 +1,9 @@
 <?php
 
-namespace Viest\Transactions;
+namespace Coolsam\Transactions;
 
 use Illuminate\Support\ServiceProvider;
-use Viest\Transactions\Eloquent\Model;
+use Coolsam\Transactions\Eloquent\Model;
 use Jenssegers\Mongodb\Queue\MongoConnector;
 
 class MongodbTransactionsServiceProvider extends ServiceProvider

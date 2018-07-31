@@ -1,6 +1,6 @@
 <?php
 
-namespace Viest\Transactions\Event;
+namespace Coolsam\Transactions\Event;
 
 class RollbackTransactions extends BaseTransactions
 {

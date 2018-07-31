@@ -1,6 +1,6 @@
 <?php
 
-namespace Viest\Transactions;
+namespace Coolsam\Transactions;
 
 use Jenssegers\Mongodb\Connection as BaseConnection;
 

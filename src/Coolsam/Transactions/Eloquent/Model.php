@@ -1,10 +1,10 @@
 <?php
 
-namespace Viest\Transactions\Eloquent;
+namespace Coolsam\Transactions\Eloquent;
 
 use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
-use Viest\Transactions\Event\RollbackTransactions;
-use Viest\Transactions\Query\QueryBuilder;
+use Coolsam\Transactions\Event\RollbackTransactions;
+use Coolsam\Transactions\Query\QueryBuilder;
 
 class Model extends Eloquent
 {
